@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BI Design | AI Creative Studio — استوديو التصميم والذكاء الاصطناعي</title>
+  <meta name="description" content="BI Design | AI Creative Studio — نحول أفكارك إلى إبداعات بصرية فاخرة باستخدام الذكاء الاصطناعي. تصميم جرافيك، شعارات، هوية بصرية، وإعلانات سوشيال ميديا وصور وفيديوهات AI." />
+  <meta name="keywords" content="BI Design, AI Creative Studio, تصميم جرافيك, ذكاء اصطناعي, تصميم شعارات, هوية بصرية, إعلانات سوشيال ميديا, مصر" />
+  <meta name="author" content="BI Design | AI Creative Studio" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#050a18" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_EG" />
+  <meta property="og:title" content="BI Design | AI Creative Studio — استوديو التصميم والذكاء الاصطناعي" />
+  <meta property="og:description" content="نحول أفكارك إلى إبداعات بصرية باستخدام الذكاء الاصطناعي: شعارات، هويات بصرية، وإعلانات سوشيال ميديا وصور وفيديوهات احترافية." />
+  <meta property="og:site_name" content="BI Design" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BI Design | AI Creative Studio" />
+  <meta name="twitter:description" content="استوديو التصميم الجرافيكي وصناعة المحتوى بالذكاء الاصطناعي — إبداع • ابتكار • جودة." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "BI Design | AI Creative Studio",
+    "description": "استوديو متخصص في التصميم الجرافيكي، الهويات البصرية، وصناعة الصور والفيديوهات الإعلانية باستخدام الذكاء الاصطناعي.",
+    "telephone": "+201032136751",
+    "areaServed": "EG",
+    "sameAs": [
+      "https://instagram.com/bidesignegypt"
+    ],
+    "knowsAbout": [
+      "Graphic Design",
+      "Brand Identity",
+      "AI Image & Video Generation",
+      "Social Media Advertising"
+    ]
+  }
+  </script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy-950: #050a18;
+      --navy-900: #0a122c;
+      --navy-800: #111d42;
+      --gold-400: #f3cf65;
+      --gold-500: #d4af37;
+      --gold-600: #aa821c;
+      --silver-300: #d8dee9;
+    }
+    body {
+      font-family: 'Cairo', 'Inter', sans-serif;
+      background-color: var(--navy-950);
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+    .font-en {
+      font-family: 'Inter', sans-serif;
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #fff3c4 0%, #f3cf65 35%, #d4af37 70%, #9a7418 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .silver-gradient-text {
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 55%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #f3cf65 0%, #d4af37 55%, #aa821c 100%);
+    }
+    .royal-card {
+      background: linear-gradient(160deg, rgba(17, 29, 66, 0.82) 0%, rgba(7, 13, 31, 0.94) 100%);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      box-shadow: 0 12px 35px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+    }
+    .royal-card:hover {
+      border-color: rgba(243, 207, 101, 0.55);
+      box-shadow: 0 16px 40px -10px rgba(212, 175, 55, 0.18);
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 35%, rgba(212, 175, 55, 0.16) 0%, rgba(29, 78, 216, 0.14) 38%, rgba(5, 10, 24, 0) 72%);
+    }
+    .gold-ring {
+      box-shadow: 0 0 35px rgba(212, 175, 55, 0.35), inset 0 0 20px rgba(212, 175, 55, 0.2);
+    }
+  </style>
+</head>
+<body class="min-h-screen selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- Toast Notification -->
+  <div id="toast-container" class="fixed bottom-5 left-5 z-50 hidden max-w-sm rounded-xl border border-amber-400/50 bg-slate-900/95 px-4 py-3 text-sm text-amber-200 shadow-2xl backdrop-blur-md transition-all duration-300">
+    <div class="flex items-center gap-2.5">
+      <span class="text-lg">✨</span>
+      <span id="toast-message" class="font-semibold">تم النسخ بنجاح!</span>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/90 p-4 backdrop-blur-md">
+    <div class="royal-card relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-2xl p-5">
+      <div class="mb-4 flex items-center justify-between border-b border-amber-500/20 pb-3">
+        <div>
+          <h3 id="lightbox-title" class="text-lg font-bold text-amber-300">معاينة التصميم</h3>
+          <p id="lightbox-category" class="text-xs text-slate-400"></p>
+        </div>
+        <button id="close-lightbox-btn" type="button" class="rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-1.5 text-sm font-bold text-slate-300 hover:border-amber-400 hover:text-white">
+          إغلاق ✕
+        </button>
+      </div>
+      <div class="overflow-hidden rounded-xl border border-amber-500/30 bg-slate-950">
+        <img id="lightbox-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="معاينة" class="mx-auto max-h-[52vh] w-auto max-w-full object-contain" />
+      </div>
+      <div class="mt-4 rounded-xl border border-slate-800 bg-slate-900/90 p-3.5">
+        <div class="mb-1.5 flex items-center justify-between">
+          <span class="text-xs font-bold text-amber-300">كود التوليد (AI Prompt):</span>
+          <button id="copy-lightbox-prompt-btn" type="button" class="rounded-md bg-amber-500/20 px-2.5 py-1 text-xs font-semibold text-amber-300 hover:bg-amber-500/30">
+            📋 نسخ البرومبت
+          </button>
+        </div>
+        <p id="lightbox-prompt" dir="ltr" class="font-en text-xs leading-relaxed text-slate-300 select-all"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 border-b border-amber-500/20 bg-slate-950/85 backdrop-blur-lg">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="#hero" class="flex items-center gap-2.5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-amber-400/50 bg-gradient-to-br from-amber-400/20 to-blue-900/40 shadow-inner">
+          <span class="text-xl">👑</span>
+        </div>
+        <div>
+          <span class="font-en block text-lg font-extrabold tracking-wide gold-gradient-text leading-none">BI Design</span>
+          <span class="font-en block text-[11px] font-medium tracking-widest text-slate-300">AI CREATIVE STUDIO</span>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-6 text-sm font-semibold text-slate-200 md:flex">
+        <a href="#hero" class="transition hover:text-amber-300">الرئيسية</a>
+        <a href="#services" class="transition hover:text-amber-300">خدماتنا</a>
+        <a href="#portfolio" class="transition hover:text-amber-300">معرض الأعمال</a>
+        <a href="#page-kit" class="transition hover:text-amber-300">أدوات الصفحة والـ Prompt</a>
+        <a href="#contact" class="transition hover:text-amber-300">اطلب مشروعك</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="#contact" class="gold-gradient-bg rounded-xl px-4 py-2 text-xs font-extrabold text-slate-950 shadow-lg transition hover:brightness-110 sm:text-sm">
+          📩 ابدأ مشروعك
+        </a>
+        <button id="mobile-menu-btn" type="button" aria-label="القائمة" class="rounded-xl border border-slate-700 bg-slate-900 p-2 text-slate-200 md:hidden">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden border-t border-slate-800 bg-slate-950 px-4 py-3 md:hidden">
+      <div class="flex flex-col gap-2.5 text-sm font-semibold text-slate-200">
+        <a href="#hero" class="mobile-nav-link rounded-lg px-2 py-1.5 hover:bg-slate-900 hover:text-amber-300">الرئيسية</a>
+        <a href="#services" class="mobile-nav-link rounded-lg px-2 py-1.5 hover:bg-slate-900 hover:text-amber-300">خدماتنا</a>
+        <a href="#portfolio" class="mobile-nav-link rounded-lg px-2 py-1.5 hover:bg-slate-900 hover:text-amber-300">معرض الأعمال</a>
+        <a href="#page-kit" class="mobile-nav-link rounded-lg px-2 py-1.5 hover:bg-slate-900 hover:text-amber-300">أدوات الصفحة و GitHub</a>
+        <a href="#contact" class="mobile-nav-link rounded-lg px-2 py-1.5 hover:bg-slate-900 hover:text-amber-300">اطلب مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-glow relative overflow-hidden py-10 sm:py-16">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="grid items-center gap-8 lg:grid-cols-12">
+
+        <!-- Text Column -->
+        <div class="lg:col-span-7 text-right">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-500/10 px-3.5 py-1.5 text-xs font-bold text-amber-300">
+            <span>👑</span>
+            <span>استوديو التصميم والذكاء الاصطناعي الأول بهوية ملكية</span>
+          </div>
+
+          <h1 class="text-3xl font-black leading-tight sm:text-5xl">
+            <span class="font-en gold-gradient-text block text-4xl sm:text-6xl mb-2">BI Design</span>
+            <span class="silver-gradient-text text-xl sm:text-3xl font-bold block mb-3">AI Creative Studio</span>
+            نحول أفكارك إلى إبداعات بصرية فاخرة بالذكاء الاصطناعي
+          </h1>
+
+          <p class="mt-4 max-w-xl text-sm leading-relaxed text-slate-300 sm:text-base">
+            نجمع بين قوة الذكاء الاصطناعي التوليدي واللمسة الجرافيكية الاحترافية لصناعة هويات بصرية، شعارات ملكية، وإعلانات سوشيال ميديا وصور وفيديوهات تخطف الأنظار.
+          </p>
+
+          <!-- Key Badges -->
+          <div class="mt-6 flex flex-wrap gap-2.5 text-xs font-bold text-slate-200">
+            <span class="rounded-lg border border-blue-500/30 bg-blue-950/60 px-3 py-1.5">🎨 تصميم جرافيك وشعارات</span>
+            <span class="rounded-lg border border-amber-500/30 bg-amber-950/40 px-3 py-1.5 text-amber-200">📱 إعلانات السوشيال ميديا</span>
+            <span class="rounded-lg border border-slate-600/40 bg-slate-900/70 px-3 py-1.5">🎬 صور وفيديوهات بالذكاء الاصطناعي</span>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="mt-7 flex flex-wrap items-center gap-3">
+            <a href="#contact" class="gold-gradient-bg rounded-xl px-6 py-3.5 text-sm font-black text-slate-950 shadow-xl transition hover:scale-[1.02]">
+              🚀 ابدأ مشروعك الآن
+            </a>
+            <a href="#portfolio" class="rounded-xl border border-amber-400/40 bg-slate-900/80 px-5 py-3.5 text-sm font-bold text-amber-200 transition hover:border-amber-300 hover:bg-slate-800">
+              🖼️ معاينة التصاميم
+            </a>
+            <a href="#page-kit" class="rounded-xl border border-slate-700 bg-slate-900/60 px-4 py-3.5 text-xs font-bold text-slate-300 transition hover:border-slate-500 hover:text-white">
+              ⚙️ اختبار منشور الصفحة و GitHub
+            </a>
+          </div>
+
+          <!-- Quick Contact Info Bar -->
+          <div class="mt-8 grid grid-cols-2 gap-3 border-t border-slate-800/80 pt-5 sm:grid-cols-3 text-xs">
+            <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-3">
+              <span class="block text-slate-400">واتساب / اتصال</span>
+              <span dir="ltr" class="font-en mt-0.5 block font-bold text-amber-300">+20 10 32136751</span>
+            </div>
+            <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-3">
+              <span class="block text-slate-400">إنستجرام وفيسبوك</span>
+              <span dir="ltr" class="font-en mt-0.5 block font-bold text-slate-200">@bidesignegypt</span>
+            </div>
+            <div class="col-span-2 sm:col-span-1 rounded-xl border border-slate-800 bg-slate-900/50 p-3">
+              <span class="block text-slate-400">شعارنا</span>
+              <span class="mt-0.5 block font-bold text-amber-200">✨ إبداع • ابتكار • جودة</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Hero Visual Switcher Column -->
+        <div class="lg:col-span-5">
+          <div class="royal-card gold-ring relative mx-auto max-w-md rounded-3xl p-4">
+            <div class="mb-3 flex items-center justify-between">
+              <span class="flex items-center gap-1.5 text-xs font-bold text-amber-300">
+                <span>👑</span>
+                <span id="hero-badge-label">النسخة الملكية النهائية (المعتمدة)</span>
+              </span>
+              <span class="font-en rounded-full bg-amber-500/20 px-2.5 py-0.5 text-[11px] font-bold text-amber-300">1:1 HD</span>
+            </div>
+
+            <div class="relative overflow-hidden rounded-2xl border border-amber-400/40 bg-slate-950">
+              <img
+                id="hero-main-img"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                alt="BI Design Royal AI Robot"
+                class="h-auto w-full object-cover transition-all duration-300"
+              />
+            </div>
+
+            <!-- Interactive Switcher to Test the 3 Versions Live -->
+            <div class="mt-3.5">
+              <p class="mb-2 text-center text-xs font-semibold text-slate-300">اضغط لتجربة ومقارنة نسخ الهوية مباشرة على الموقع:</p>
+              <div class="grid grid-cols-3 gap-2">
+                <button
+                  type="button"
+                  data-hero-idx="0"
+                  class="hero-switch-btn rounded-xl border border-amber-400 bg-amber-500/20 px-2 py-2 text-xs font-bold text-amber-200 transition"
+                >
+                  1. النهائية النظيفة
+                </button>
+                <button
+                  type="button"
+                  data-hero-idx="1"
+                  class="hero-switch-btn rounded-xl border border-slate-700 bg-slate-900/80 px-2 py-2 text-xs font-semibold text-slate-300 transition hover:border-amber-400/50"
+                >
+                  2. الملكية بالتفاصيل
+                </button>
+                <button
+                  type="button"
+                  data-hero-idx="2"
+                  class="hero-switch-btn rounded-xl border border-slate-700 bg-slate-900/80 px-2 py-2 text-xs font-semibold text-slate-300 transition hover:border-amber-400/50"
+                >
+                  3. العصرية البسيطة
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="border-t border-slate-800/80 py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="mb-10 text-center">
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">الخدمات التخصصية</span>
+        <h2 class="mt-1 text-2xl font-black sm:text-4xl">ماذا نصنع في <span class="font-en gold-gradient-text">BI Design</span>؟</h2>
+        <p class="mx-auto mt-2 max-w-2xl text-sm text-slate-300">نقدم حلولاً بصرية متكاملة تدمج الذكاء الاصطناعي بالتصميم الجرافيكي التجاري لرفع قيمة علامتك التجارية.</p>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- Service 1 -->
+        <div class="royal-card flex flex-col justify-between rounded-2xl p-5 transition">
+          <div>
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl border border-amber-400/40 bg-amber-500/10 text-2xl">
+              🎨
+            </div>
+            <h3 class="text-lg font-extrabold text-amber-300">الشعارات والهوية البصرية</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300">
+              تصميم شعارات ملكية وعصرية، بطاقات أعمال، وملفات هوية بصرية كاملة تعكس فخامة مشروعك وتميزه في السوق.
+            </p>
+          </div>
+          <button
+            type="button"
+            data-service="تصميم شعار وهوية بصرية كاملة"
+            class="select-service-btn mt-5 w-full rounded-xl border border-amber-400/40 bg-amber-500/10 py-2.5 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+          >
+            اطلب هذه الخدمة ←
+          </button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="royal-card flex flex-col justify-between rounded-2xl p-5 transition">
+          <div>
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl border border-blue-400/40 bg-blue-500/10 text-2xl">
+              📱
+            </div>
+            <h3 class="text-lg font-extrabold text-white">إعلانات السوشيال ميديا</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300">
+              تصاميم بوستات وإعلانات ممولة احترافية لفيسبوك وإنستجرام تزيد من التفاعل وتحول المشاهدين إلى عملاء.
+            </p>
+          </div>
+          <button
+            type="button"
+            data-service="تصاميم وإعلانات سوشيال ميديا"
+            class="select-service-btn mt-5 w-full rounded-xl border border-amber-400/40 bg-amber-500/10 py-2.5 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+          >
+            اطلب هذه الخدمة ←
+          </button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="royal-card flex flex-col justify-between rounded-2xl p-5 transition">
+          <div>
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl border border-amber-400/40 bg-amber-500/10 text-2xl">
+              🎬
+            </div>
+            <h3 class="text-lg font-extrabold text-amber-300">صور وفيديوهات الذكاء الاصطناعي</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300">
+              إنتاج مشاهد سينمائية، صور منتجات خيالية، ومقاطع ريلز وإعلانات فيديو بالذكاء الاصطناعي بجودة 8K.
+            </p>
+          </div>
+          <button
+            type="button"
+            data-service="إنتاج صور وفيديوهات بالذكاء الاصطناعي"
+            class="select-service-btn mt-5 w-full rounded-xl border border-amber-400/40 bg-amber-500/10 py-2.5 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+          >
+            اطلب هذه الخدمة ←
+          </button>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="royal-card flex flex-col justify-between rounded-2xl p-5 transition">
+          <div>
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl border border-blue-400/40 bg-blue-500/10 text-2xl">
+              🤖
+            </div>
+            <h3 class="text-lg font-extrabold text-white">تصميم شخصيات AI للعلامات</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300">
+              ابتكار شخصية ناطقة أو روبوت خاص بعلامتك التجارية لتمثيل شركتك في المنشورات والمقاطع الإعلانية.
+            </p>
+          </div>
+          <button
+            type="button"
+            data-service="تصميم شخصية ذكاء اصطناعي خاصة بالعلامة"
+            class="select-service-btn mt-5 w-full rounded-xl border border-amber-400/40 bg-amber-500/10 py-2.5 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+          >
+            اطلب هذه الخدمة ←
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="border-t border-slate-800/80 bg-slate-950/60 py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <div>
+          <span class="text-xs font-bold text-amber-400">نماذج الأعمال والهوية</span>
+          <h2 class="mt-1 text-2xl font-black sm:text-3xl">معرض إبداعات <span class="font-en gold-gradient-text">BI Design</span></h2>
+        </div>
+
+        <!-- Filter & Add Project Buttons -->
+        <div class="flex flex-wrap items-center gap-2">
+          <button type="button" data-filter="all" class="portfolio-filter-btn rounded-xl border border-amber-400 bg-amber-500/20 px-3.5 py-1.5 text-xs font-bold text-amber-200">
+            الكل (5)
+          </button>
+          <button type="button" data-filter="royal-ai" class="portfolio-filter-btn rounded-xl border border-slate-700 bg-slate-900 px-3.5 py-1.5 text-xs font-semibold text-slate-300 hover:border-amber-400/50">
+            شخصيات وهوية AI
+          </button>
+          <button type="button" data-filter="branding" class="portfolio-filter-btn rounded-xl border border-slate-700 bg-slate-900 px-3.5 py-1.5 text-xs font-semibold text-slate-300 hover:border-amber-400/50">
+            شعارات وهوية بصرية
+          </button>
+          <button type="button" data-filter="ads" class="portfolio-filter-btn rounded-xl border border-slate-700 bg-slate-900 px-3.5 py-1.5 text-xs font-semibold text-slate-300 hover:border-amber-400/50">
+            إعلانات منتجات AI
+          </button>
+          <button id="toggle-add-project-btn" type="button" class="gold-gradient-bg rounded-xl px-3.5 py-1.5 text-xs font-black text-slate-950 shadow transition hover:brightness-110">
+            ➕ إضافة مشروع جديد
+          </button>
+        </div>
+      </div>
+
+      <!-- Collapsible Add New Portfolio Project Panel -->
+      <div id="add-project-panel" class="royal-card mt-6 hidden rounded-2xl p-5">
+        <div class="mb-4 flex items-center justify-between border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-sm font-extrabold text-amber-300">➕ إضافة عمل جديد إلى معرض BI Design</h3>
+            <p class="text-xs text-slate-400">يتم حفظ المشاريع المضافة تلقائياً في متصفحك وتظهر فوراً في المعرض والتصنيفات.</p>
+          </div>
+          <button id="close-add-project-btn" type="button" class="rounded-lg border border-slate-700 bg-slate-900 px-2.5 py-1 text-xs text-slate-300 hover:border-amber-400">
+            إغلاق ✕
+          </button>
+        </div>
+        <form id="add-project-form" class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label for="new-project-title" class="mb-1 block text-xs font-bold text-slate-300">عنوان التصميم / المشروع:</label>
+            <input id="new-project-title" type="text" required maxlength="80" placeholder="مثال: تصميم هوية مقهى فاخر بالذكاء الاصطناعي" class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-white focus:border-amber-400 focus:outline-none" />
+          </div>
+          <div>
+            <label for="new-project-category" class="mb-1 block text-xs font-bold text-slate-300">التصنيف:</label>
+            <select id="new-project-category" class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-white focus:border-amber-400 focus:outline-none">
+              <option value="branding">شعارات وهوية بصرية</option>
+              <option value="ads">إعلانات منتجات AI</option>
+              <option value="royal-ai">شخصيات وهوية AI</option>
+            </select>
+          </div>
+          <div>
+            <label for="new-project-file" class="mb-1 block text-xs font-bold text-slate-300">رفع صورة التصميم من جهازك (اختياري):</label>
+            <input id="new-project-file" type="file" accept="image/*" class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-1.5 text-xs text-slate-300 file:ml-2 file:rounded-lg file:border-0 file:bg-amber-500/20 file:px-2.5 file:py-1 file:text-xs file:font-bold file:text-amber-300" />
+          </div>
+          <div>
+            <label for="new-project-template-img" class="mb-1 block text-xs font-bold text-slate-300">أو اختيار صورة جاهزة من قوالب الاستوديو:</label>
+            <select id="new-project-template-img" class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-white focus:border-amber-400 focus:outline-none">
+              <option value="brandMockup">قالب هوية بصرية وشعار ذهبي</option>
+              <option value="perfumeAd">قالب إعلان عطر ملكي</option>
+              <option value="royalFinal">قالب الروبوت الملكي المعتمد</option>
+              <option value="minimalRobot">قالب الروبوت العصري البسيط</option>
+            </select>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="new-project-prompt" class="mb-1 block text-xs font-bold text-slate-300">كود التوليد (AI Prompt) أو وصف المشروع:</label>
+            <textarea id="new-project-prompt" rows="2" required maxlength="600" placeholder="اكتب الـ Prompt المستخدم أو تفاصيل تنفيذ المشروع..." class="font-en w-full rounded-xl border border-slate-700 bg-slate-900 p-3 text-xs text-white focus:border-amber-400 focus:outline-none"></textarea>
+          </div>
+          <div class="sm:col-span-2 flex flex-wrap items-center justify-between gap-2 pt-1">
+            <button id="reset-custom-projects-btn" type="button" class="rounded-xl border border-rose-500/30 bg-rose-950/30 px-3 py-2 text-xs font-semibold text-rose-300 hover:bg-rose-900/50">
+              🗑️ استعادة المعرض الافتراضي
+            </button>
+            <button type="submit" class="gold-gradient-bg rounded-xl px-5 py-2 text-xs font-black text-slate-950 shadow hover:brightness-110">
+              ✅ حفظ وإضافة للمعرض
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div id="portfolio-grid" class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </div>
+  </section>
+
+  <!-- Interactive Page Kit, Prompt Generator & GitHub Deployment Section -->
+  <section id="page-kit" class="border-t border-slate-800/80 py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="mb-8 text-center">
+        <span class="text-xs font-bold text-amber-400">لوحة تحكم صفحة BI Design</span>
+        <h2 class="mt-1 text-2xl font-black sm:text-3xl">محاكي فيسبوك + مولد الأكواد + ملفات GitHub</h2>
+        <p class="mx-auto mt-2 max-w-2xl text-xs sm:text-sm text-slate-300">
+          اختبر شكل المنشور المثبت على فيسبوك، وانسخ نصوص الصفحة الجاهزة، وحمّل ملفات الموقع لرفعها على GitHub Pages مباشرة.
+        </p>
+      </div>
+
+      <div class="grid gap-6 lg:grid-cols-12">
+        <!-- Left Column: Live Facebook Post Preview Simulator -->
+        <div class="lg:col-span-6">
+          <div class="royal-card rounded-2xl p-5">
+            <div class="mb-4 flex items-center justify-between border-b border-slate-800 pb-3">
+              <span class="text-sm font-extrabold text-amber-300">📱 معاينة المنشور المثبت على صفحتك</span>
+              <span class="rounded-md bg-blue-500/20 px-2.5 py-0.5 text-xs font-bold text-blue-300">محاكاة حية</span>
+            </div>
+
+            <!-- Simulated Facebook Post Card -->
+            <div class="rounded-2xl border border-slate-700/80 bg-[#18191a] p-4 text-slate-100 shadow-xl">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-full border border-amber-400 bg-slate-900 font-en font-black text-amber-300">
+                    BI
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5">
+                      <span class="font-en text-sm font-bold text-white">BI Design</span>
+                      <span class="text-xs text-blue-400">✔</span>
+                      <span class="rounded bg-slate-800 px-1.5 py-0.5 text-[10px] text-amber-300">📌 منشور مثبت</span>
+                    </div>
+                    <span class="text-[11px] text-slate-400">الآن • 🌐</span>
+                  </div>
+                </div>
+              </div>
+
+              <div id="fb-sim-text" class="mt-3 whitespace-pre-line text-xs leading-relaxed text-slate-200">👑 BI Design | AI Creative Studio
+
+🤖 نحول أفكارك إلى إبداعات بصرية باستخدام الذكاء الاصطناعي.
+🎨 تصميم جرافيك | شعارات | هوية بصرية
+📱 إعلانات ومحتوى السوشيال ميديا
+🎬 صناعة الصور والفيديوهات بالذكاء الاصطناعي
+✨ إبداع • ابتكار • جودة
+
+📩 تواصل معنا لبدء مشروعك:
+📞 واتساب / اتصال: +201032136751
+📸 إنستجرام: @bidesignegypt</div>
+
+              <div class="mt-3 overflow-hidden rounded-xl border border-slate-800">
+                <img
+                  id="fb-sim-img"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  alt="منشور مثبت"
+                  class="max-h-72 w-full object-cover"
+                />
+              </div>
+
+              <div class="mt-3 flex items-center justify-around border-t border-slate-800 pt-2.5 text-xs font-semibold text-slate-400">
+                <span>👍 أعجبني</span>
+                <span>💬 تعليق</span>
+                <span>↗️ مشاركة</span>
+              </div>
+            </div>
+
+            <!-- Copy Buttons for Bio & Pinned Post -->
+            <div class="mt-4 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
+              <button
+                id="copy-bio-btn"
+                type="button"
+                class="rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2.5 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+              >
+                📋 نسخ السيرة الذاتية (Bio &lt; 101 حرف)
+              </button>
+              <button
+                id="copy-pinned-btn"
+                type="button"
+                class="rounded-xl border border-blue-400/40 bg-blue-500/10 px-3 py-2.5 text-xs font-bold text-blue-200 transition hover:bg-blue-500 hover:text-slate-950"
+              >
+                📋 نسخ نص المنشور المثبت الكامل
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive AI Prompt Studio & GitHub Exporter -->
+        <div class="lg:col-span-6 flex flex-col gap-6">
+          <!-- Custom Prompt Generator -->
+          <div class="royal-card rounded-2xl p-5">
+            <h3 class="text-base font-extrabold text-amber-300">🤖 مولد أكواد الصور بنفس هوية BI Design</h3>
+            <p class="mt-1 text-xs text-slate-300">اختر نوع التصميم ليتم توليد البرومبت الإنجليزي المضبوط على ألوانك الملكية (كحلي + ذهبي + فضي):</p>
+
+            <div class="mt-3 grid gap-3 sm:grid-cols-2">
+              <div>
+                <label for="prompt-preset-select" class="mb-1 block text-xs font-bold text-slate-300">نوع التصميم:</label>
+                <select id="prompt-preset-select" class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-white focus:border-amber-400 focus:outline-none">
+                  <option value="royal-post">منشور ترحيبي (روبوت ملكي بالتاج)</option>
+                  <option value="fb-cover">غلاف فيسبوك عريض (Cover Photo 16:9)</option>
+                  <option value="logo-reveal">عرض شعار ثلاثي الأبعاد بالذهبي</option>
+                  <option value="product-ad">إعلان منتج فاخر بالذكاء الاصطناعي</option>
+                </select>
+              </div>
+              <div>
+                <label for="prompt-custom-text" class="mb-1 block text-xs font-bold text-slate-300">النص المكتوب داخل التصميم:</label>
+                <input
+                  id="prompt-custom-text"
+                  type="text"
+                  value="BI Design - AI Creative Studio"
+                  class="font-en w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-white focus:border-amber-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <textarea
+                id="generated-prompt-box"
+                dir="ltr"
+                rows="4"
+                readonly
+                class="font-en w-full rounded-xl border border-slate-800 bg-slate-950 p-3 text-xs leading-relaxed text-amber-100 focus:outline-none"
+              ></textarea>
+            </div>
+
+            <div class="mt-2.5 flex justify-end">
+              <button
+                id="copy-generated-prompt-btn"
+                type="button"
+                class="gold-gradient-bg rounded-xl px-4 py-2 text-xs font-black text-slate-950 transition hover:brightness-110"
+              >
+                📋 نسخ كود التوليد (Prompt)
+              </button>
+            </div>
+          </div>
+
+          <!-- GitHub Repository & Pages Exporter -->
+          <div class="royal-card rounded-2xl p-5">
+            <div class="flex items-center justify-between">
+              <h3 class="text-base font-extrabold text-white">🐙 تجهيز ورفع الموقع على GitHub Pages</h3>
+              <span class="font-en rounded-md bg-emerald-500/20 px-2.5 py-0.5 text-[11px] font-bold text-emerald-300">GitHub Ready</span>
+            </div>
+            <p class="mt-1.5 text-xs leading-relaxed text-slate-300">
+              لتشغيل هذا الموقع مجاناً على رابط <span class="font-en text-amber-300">username.github.io/bi-design</span> ووضعه في قسم «الروابط» بصفحة فيسبوك:
+            </p>
+            <ol class="mt-2.5 space-y-1.5 text-xs text-slate-300 list-decimal list-inside">
+              <li>أنشئ مستودعاً جديداً (New Repository) على حسابك في GitHub باسم <span class="font-en font-bold text-white">bi-design</span>.</li>
+              <li>حمّل ملف <span class="font-en font-bold text-amber-300">index.html</span> وملف <span class="font-en font-bold text-amber-300">README.md</span> من الأزرار بالأسفل وارفعها للمستودع.</li>
+              <li>من إعدادات المستودع (<span class="font-en">Settings → Pages</span>) اختر الفرع <span class="font-en">main</span> ليصبح موقعك متاحاً للجميع.</li>
+            </ol>
+
+            <div class="mt-4 flex flex-wrap gap-2.5">
+              <button
+                id="download-html-btn"
+                type="button"
+                class="rounded-xl border border-amber-400/50 bg-amber-500/20 px-3.5 py-2 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+              >
+                ⬇️ تحميل الموقع كملف index.html
+              </button>
+              <button
+                id="copy-readme-btn"
+                type="button"
+                class="rounded-xl border border-slate-700 bg-slate-900 px-3.5 py-2 text-xs font-bold text-slate-200 transition hover:border-amber-400"
+              >
+                📋 نسخ ملف README.md للمستودع
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Order / Contact Section -->
+  <section id="contact" class="border-t border-slate-800/80 bg-slate-950 py-14">
+    <div class="mx-auto max-w-4xl px-4">
+      <div class="royal-card rounded-3xl p-6 sm:p-8">
+        <div class="mb-6 text-center">
+          <span class="text-xs font-bold text-amber-400">تواصل مباشر</span>
+          <h2 class="mt-1 text-2xl font-black sm:text-3xl">📩 ابدأ مشروعك مع <span class="font-en gold-gradient-text">BI Design</span></h2>
+          <p class="mt-1 text-xs sm:text-sm text-slate-300">اختر الخدمة واكتب فكرتك ليتم تجهيز رسالة الطلب وإرسالها مباشرة عبر واتساب الاستوديو</p>
+        </div>
+
+        <form id="project-order-form" class="space-y-4">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label for="client-name" class="mb-1 block text-xs font-bold text-slate-300">الاسم أو اسم النشاط التجاري:</label>
+              <input
+                id="client-name"
+                type="text"
+                required
+                maxlength="80"
+                placeholder="مثال: شركة النور / أحمد محمد"
+                class="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:border-amber-400 focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label for="client-phone" class="mb-1 block text-xs font-bold text-slate-300">رقم الهاتف / واتساب العميل:</label>
+              <input
+                id="client-phone"
+                type="tel"
+                dir="ltr"
+                maxlength="25"
+                placeholder="+20 10 XXXXXXXX"
+                class="font-en w-full rounded-xl border border-slate-700 bg-slate-900/90 px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:border-amber-400 focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label for="service-type" class="mb-1 block text-xs font-bold text-slate-300">الخدمة المطلوبة:</label>
+              <select
+                id="service-type"
+                class="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-3.5 py-2.5 text-sm text-white focus:border-amber-400 focus:outline-none"
+              >
+                <option value="تصميم شعار وهوية بصرية كاملة">🎨 تصميم شعار وهوية بصرية كاملة</option>
+                <option value="تصاميم وإعلانات سوشيال ميديا">📱 تصاميم وإعلانات سوشيال ميديا</option>
+                <option value="إنتاج صور وفيديوهات بالذكاء الاصطناعي">🎬 إنتاج صور وفيديوهات بالذكاء الاصطناعي</option>
+                <option value="تصميم شخصية ذكاء اصطناعي خاصة بالعلامة">🤖 تصميم شخصية ذكاء اصطناعي خاصة بالعلامة</option>
+              </select>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2.5">
+              <div>
+                <label for="package-tier" class="mb-1 block text-xs font-bold text-slate-300">الباقة:</label>
+                <select
+                  id="package-tier"
+                  class="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-2.5 py-2.5 text-xs text-white focus:border-amber-400 focus:outline-none"
+                >
+                  <option value="الباقة الأساسية (تصميم مفرد)">الباقة الأساسية</option>
+                  <option value="الباقة الاحترافية (حزمة متكاملة)" selected>الباقة الاحترافية ⭐</option>
+                  <option value="الباقة الملكية VIP (شاملة الهوية وAI)">الباقة الملكية VIP 👑</option>
+                </select>
+              </div>
+              <div>
+                <label for="delivery-speed" class="mb-1 block text-xs font-bold text-slate-300">موعد التسليم:</label>
+                <select
+                  id="delivery-speed"
+                  class="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-2.5 py-2.5 text-xs text-white focus:border-amber-400 focus:outline-none"
+                >
+                  <option value="عادي (3 - 5 أيام عمل)">عادي (3-5 أيام)</option>
+                  <option value="مستعجل (24 - 48 ساعة)">مستعجل (24-48 ساعة) ⚡</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label for="project-details" class="mb-1 block text-xs font-bold text-slate-300">تفاصيل الفكرة أو المشروع:</label>
+            <textarea
+              id="project-details"
+              rows="3"
+              required
+              placeholder="اكتب فكرتك باختصار، الألوان المفضلة، أو عدد التصاميم المطلوبة..."
+              class="w-full rounded-xl border border-slate-700 bg-slate-900/90 p-3.5 text-sm text-white placeholder-slate-500 focus:border-amber-400 focus:outline-none"
+            ></textarea>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+            <div class="text-xs text-slate-400">
+              <span>رقم واتساب المباشر: </span>
+              <span dir="ltr" class="font-en font-bold text-amber-300">+20 10 32136751</span>
+            </div>
+
+            <div class="flex flex-wrap gap-2.5">
+              <button
+                type="submit"
+                class="gold-gradient-bg rounded-xl px-6 py-3 text-sm font-black text-slate-950 shadow-lg transition hover:brightness-110"
+              >
+                💬 تجهيز وإرسال عبر واتساب
+              </button>
+              <button
+                id="copy-order-btn"
+                type="button"
+                class="rounded-xl border border-slate-700 bg-slate-900 px-4 py-3 text-xs font-bold text-slate-200 hover:border-amber-400"
+              >
+                📋 نسخ نص الطلب
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Order Preview Box (Shown after submit) -->
+        <div id="order-preview-box" class="mt-5 hidden rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-emerald-300">✅ تم تجهيز رسالة طلبك بنجاح:</span>
+            <a
+              id="whatsapp-direct-link"
+              href="https://wa.me/201032136751"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-lg bg-emerald-500 px-3 py-1.5 text-xs font-black text-slate-950 hover:bg-emerald-400"
+            >
+              فتح محادثة واتساب الآن ↗
+            </a>
+          </div>
+          <pre id="order-preview-text" class="mt-2 whitespace-pre-wrap text-xs text-slate-200 font-sans"></pre>
+        </div>
+
+        <!-- Saved Orders Management Log -->
+        <div class="mt-8 border-t border-slate-800 pt-6">
+          <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-extrabold text-amber-300">🗂️ سجل تنظيم الطلبات المحفوظة (<span id="orders-count-badge">0</span>)</h3>
+              <p class="text-[11px] text-slate-400">يتم حفظ كل طلب برقم مرجعي خاص لتسهيل متابعة العملاء وتصدير البيانات.</p>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <button id="export-orders-csv-btn" type="button" class="rounded-lg border border-amber-400/40 bg-amber-500/10 px-3 py-1.5 text-xs font-bold text-amber-200 hover:bg-amber-500 hover:text-slate-950">
+                📊 تصدير الطلبات (CSV)
+              </button>
+              <button id="clear-orders-btn" type="button" class="rounded-lg border border-slate-700 bg-slate-900 px-3 py-1.5 text-xs font-semibold text-slate-300 hover:border-rose-500 hover:text-rose-300">
+                🗑️ مسح السجل
+              </button>
+            </div>
+          </div>
+          <div id="orders-log-list" class="space-y-2.5 text-xs"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Mobile Quick-Action Bottom Bar -->
+  <nav aria-label="شريط الوصول السريع للموبايل" class="fixed bottom-0 inset-x-0 z-30 flex items-center justify-around border-t border-amber-500/20 bg-slate-950/95 py-2 backdrop-blur-md md:hidden">
+    <a href="#hero" class="flex flex-col items-center text-[11px] font-bold text-slate-300 hover:text-amber-300">
+      <span>👑</span>
+      <span>الرئيسية</span>
+    </a>
+    <a href="#portfolio" class="flex flex-col items-center text-[11px] font-bold text-slate-300 hover:text-amber-300">
+      <span>🖼️</span>
+      <span>المعرض</span>
+    </a>
+    <a href="#page-kit" class="flex flex-col items-center text-[11px] font-bold text-slate-300 hover:text-amber-300">
+      <span>🤖</span>
+      <span>الأدوات</span>
+    </a>
+    <a href="#contact" class="flex flex-col items-center text-[11px] font-bold text-amber-300">
+      <span>📩</span>
+      <span>اطلب خدمة</span>
+    </a>
+  </nav>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 bg-slate-950 pt-8 pb-20 md:pb-8 text-center text-xs text-slate-400">
+    <div class="mx-auto max-w-6xl px-4">
+      <p class="font-en text-sm font-bold gold-gradient-text">👑 BI Design | AI Creative Studio</p>
+      <p class="mt-1">نحول أفكارك إلى إبداعات بصرية باستخدام الذكاء الاصطناعي • إبداع • ابتكار • جودة</p>
+      <p class="font-en mt-2 text-slate-500">WhatsApp: +20 10 32136751 • Instagram: @bidesignegypt</p>
+    </div>
+  </footer>
+
+  <script>
+    // Single-source image map to avoid duplicate base64 strings
+    const IMG_ASSETS = {
+      royalFinal: "assets/hero-royal-final.jpg",
+      royalClassic: "assets/hero-royal-classic.jpg",
+      minimalRobot: "assets/hero-minimal-robot.jpg",
+      brandMockup: "assets/portfolio-brand-mockup.jpg",
+      perfumeAd: "assets/portfolio-perfume-ad.jpg"
+    };
+
+    // Portfolio & Hero Items Data
+    const HERO_VERSIONS = [
+      {
+        title: "النسخة الملكية النهائية (المعتمدة)",
+        img: IMG_ASSETS.royalFinal,
+        prompt: 'An ultra-luxurious, clean social media poster for "BI Design". In the center, a majestic futuristic AI android robot in a thoughtful pose with one metallic hand resting on its chin, wearing an ornate golden royal crown set with glowing blue sapphires and a royal navy blue cape with gold trim draped over its shoulders. Polished silver, royal navy blue, and gold armor with a glowing golden circular halo ring behind it against a deep royal navy background with subtle geometric light streaks. Cleanly integrated at the bottom: bold 3D metallic gold typography reading "BI Design", and directly beneath it sleek silver lettering reading "AI Creative Studio" flanked by two thin golden horizontal lines.'
+      },
+      {
+        title: "النسخة الملكية الكلاسيكية (بالتفاصيل الكاملة)",
+        img: IMG_ASSETS.royalClassic,
+        prompt: 'Royal futuristic AI robot king wearing a golden crown with blue gems and a royal blue cape, hand on chin in a thoughtful creative pose, BI emblem on chest, bold 3D metallic gold text "BI Design" and silver "AI Creative Studio" below.'
+      },
+      {
+        title: "النسخة العصرية البسيطة (Minimalist AI)",
+        img: IMG_ASSETS.minimalRobot,
+        prompt: 'A luxurious, clean, high-end social media welcome poster for a creative studio. Deep royal navy blue background with subtle glowing geometric light accents in metallic gold and silver. Sleek futuristic AI creative robot character in royal navy blue, brushed silver, and gold accents. Bold 3D gold "BI Design" and silver "AI Creative Studio".'
+      }
+    ];
+
+    const PORTFOLIO_ITEMS = [
+      {
+        id: "p1",
+        title: "الهوية الملكية الرئيسية — BI Design",
+        category: "royal-ai",
+        categoryLabel: "شخصيات وهوية AI",
+        img: IMG_ASSETS.royalFinal,
+        prompt: HERO_VERSIONS[0].prompt
+      },
+      {
+        id: "p2",
+        title: "تصميم هوية بصرية وشعار ذهبي ثلاثي الأبعاد",
+        category: "branding",
+        categoryLabel: "شعارات وهوية بصرية",
+        img: IMG_ASSETS.brandMockup,
+        prompt: "A luxury brand identity and logo design presentation mockup on a dark royal navy desk with metallic gold foil stationery, business cards, and a glowing holographic 3D golden emblem, studio lighting, ultra-detailed commercial design showcase."
+      },
+      {
+        id: "p3",
+        title: "إعلان عطر ملكي بالذكاء الاصطناعي",
+        category: "ads",
+        categoryLabel: "إعلانات منتجات AI",
+        img: IMG_ASSETS.perfumeAd,
+        prompt: "A futuristic AI-generated commercial product advertisement concept showing a luxury golden perfume bottle floating amidst glowing royal blue and gold liquid light waves and particles, high-end digital art, studio lighting."
+      },
+      {
+        id: "p4",
+        title: "الملك الآلي المبتكر — إصدار التاج والعباءة",
+        category: "royal-ai",
+        categoryLabel: "شخصيات وهوية AI",
+        img: IMG_ASSETS.royalClassic,
+        prompt: HERO_VERSIONS[1].prompt
+      },
+      {
+        id: "p5",
+        title: "روبوت الاستوديو العصري — BI Design",
+        category: "royal-ai",
+        categoryLabel: "شخصيات وهوية AI",
+        img: IMG_ASSETS.minimalRobot,
+        prompt: HERO_VERSIONS[2].prompt
+      }
+    ];
+
+    const BIO_TEXT = "🤖 نحول أفكارك إلى إبداعات بصرية بالذكاء الاصطناعي | 🎨 جرافيك • هويات بصرية • إعلانات وفيديوهات AI ✨";
+
+    const PINNED_POST_TEXT = `👑 BI Design | AI Creative Studio
+
+🤖 نحول أفكارك إلى إبداعات بصرية باستخدام الذكاء الاصطناعي.
+🎨 تصميم جرافيك | شعارات | هوية بصرية
+📱 إعلانات ومحتوى السوشيال ميديا
+🎬 صناعة الصور والفيديوهات بالذكاء الاصطناعي
+✨ إبداع • ابتكار • جودة
+
+📩 تواصل معنا لبدء مشروعك:
+📞 واتساب / اتصال: +201032136751
+📸 إنستجرام: @bidesignegypt`;
+
+    const README_CONTENT = `# 👑 BI Design | AI Creative Studio
+
+🤖 **نحول أفكارك إلى إبداعات بصرية باستخدام الذكاء الاصطناعي.**
+
+## 🎨 خدماتنا
+- **تصميم الجرافيك والشعارات والهوية البصرية**
+- **إعلانات ومحتوى السوشيال ميديا**
+- **صناعة الصور والفيديوهات بالذكاء الاصطناعي**
+- **تطوير شخصيات الذكاء الاصطناعي للعلامات التجارية**
+
+## 🎨 الهوية البصرية المعتمدة (Brand Guidelines)
+- **الألوان الرئيسية:** كحلي ملكي داكن (\`#050A18\` / \`#0A122C\`) مع الذهبي المعدني (\`#D4AF37\`) والفضي المصقول (\`#D8DEE9\`).
+- **العنصر المركزي:** روبوت ذكاء اصطناعي ملكي يرتدي تاجاً ذهبياً مرصعاً بالأزرق وعباءة كحلية في وقفة تفكير إبداعية.
+
+## 🤖 كود توليد الصورة الترحيبية (AI Prompt)
+\`\`\`text
+${HERO_VERSIONS[0].prompt}
+\`\`\`
+
+## 📩 تواصل معنا
+- **واتساب / اتصال:** +201032136751
+- **إنستجرام:** [@bidesignegypt](https://instagram.com/bidesignegypt)
+`;
+
+    // Helper: Toast notification
+    let toastTimer = null;
+    function showToast(msg) {
+      const container = document.getElementById("toast-container");
+      const textEl = document.getElementById("toast-message");
+      textEl.textContent = msg;
+      container.classList.remove("hidden");
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        container.classList.add("hidden");
+      }, 3000);
+    }
+
+    // Helper: Copy text safely inside iframe
+    function copyTextToClipboard(text, successMsg) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast(successMsg);
+        }).catch(() => {
+          fallbackCopy(text, successMsg);
+        });
+      } else {
+        fallbackCopy(text, successMsg);
+      }
+    }
+
+    function fallbackCopy(text, successMsg) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand("copy");
+        showToast(successMsg);
+      } catch (e) {
+        showToast("يرجى تحديد النص ونسخه يدوياً");
+      }
+      document.body.removeChild(ta);
+    }
+
+    // Security Helper: Escape HTML to prevent XSS in dynamic templates
+    function escapeHtml(str) {
+      return String(str || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    // Safe localStorage wrapper
+    const STORAGE_KEYS = {
+      PORTFOLIO: "bi_design_custom_portfolio_v2",
+      ORDERS: "bi_design_orders_log_v2"
+    };
+
+    function loadStoredJson(key, fallback) {
+      try {
+        const raw = localStorage.getItem(key);
+        return raw ? JSON.parse(raw) : fallback;
+      } catch (e) {
+        return fallback;
+      }
+    }
+
+    function saveStoredJson(key, val) {
+      try {
+        localStorage.setItem(key, JSON.stringify(val));
+      } catch (e) {
+        // Ignore storage quota errors inside sandboxed iframes
+      }
+    }
+
+    let currentFilter = "all";
+    let customPortfolioItems = loadStoredJson(STORAGE_KEYS.PORTFOLIO, []);
+    let savedOrders = loadStoredJson(STORAGE_KEYS.ORDERS, [
+      {
+        id: "BID-1042",
+        name: "شركة النور للتطوير",
+        phone: "+201098765432",
+        service: "تصميم شعار وهوية بصرية كاملة",
+        tier: "الباقة الملكية VIP (شاملة الهوية وAI)",
+        speed: "مستعجل (24 - 48 ساعة)",
+        details: "نحتاج شعار ملكي باللون الذهبي والكحلي مع دليل هوية كامل.",
+        status: "قيد التنفيذ",
+        createdAt: "2026-10-31"
+      }
+    ]);
+
+    function getAllPortfolioItems() {
+      return [...customPortfolioItems, ...PORTFOLIO_ITEMS];
+    }
+
+    function updateFilterCounts() {
+      const allBtn = document.querySelector('.portfolio-filter-btn[data-filter="all"]');
+      if (allBtn) {
+        allBtn.textContent = `الكل (${getAllPortfolioItems().length})`;
+      }
+    }
+
+    // Render Portfolio Grid
+    function renderPortfolio(filterCategory) {
+      currentFilter = filterCategory || "all";
+      const grid = document.getElementById("portfolio-grid");
+      const allItems = getAllPortfolioItems();
+      updateFilterCounts();
+
+      const items = currentFilter === "all"
+        ? allItems
+        : allItems.filter(item => item.category === currentFilter);
+
+      grid.innerHTML = items.map(item => `
+        <div class="royal-card group overflow-hidden rounded-2xl flex flex-col justify-between transition">
+          <div>
+            <div class="relative aspect-square overflow-hidden bg-slate-950">
+              <img src="${item.img}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+              <span class="absolute top-3 right-3 rounded-lg bg-slate-950/85 border border-amber-400/40 px-2.5 py-1 text-[11px] font-bold text-amber-300 backdrop-blur-sm">
+                ${escapeHtml(item.categoryLabel)}
+              </span>
+              ${item.isCustom ? `<button type="button" data-delete-id="${escapeHtml(item.id)}" class="delete-portfolio-btn absolute top-3 left-3 rounded-lg bg-rose-950/90 border border-rose-500/40 px-2 py-1 text-[11px] font-bold text-rose-200 hover:bg-rose-600 hover:text-white">حذف ✕</button>` : ""}
+            </div>
+            <div class="p-4">
+              <h3 class="text-sm font-extrabold text-white">${escapeHtml(item.title)}</h3>
+              <p class="mt-1 line-clamp-2 text-xs text-slate-400 font-en" dir="ltr">${escapeHtml(item.prompt)}</p>
+            </div>
+          </div>
+          <div class="px-4 pb-4 flex gap-2">
+            <button
+              type="button"
+              data-open-id="${escapeHtml(item.id)}"
+              class="open-lightbox-btn flex-1 rounded-xl border border-amber-400/40 bg-amber-500/15 py-2 text-xs font-bold text-amber-200 transition hover:bg-amber-500 hover:text-slate-950"
+            >
+              🔍 معاينة ونسخ البرومبت
+            </button>
+          </div>
+        </div>
+      `).join("");
+
+      // Attach lightbox events
+      document.querySelectorAll(".open-lightbox-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const item = getAllPortfolioItems().find(p => p.id === btn.dataset.openId);
+          if (!item) return;
+          document.getElementById("lightbox-title").textContent = item.title;
+          document.getElementById("lightbox-category").textContent = item.categoryLabel;
+          document.getElementById("lightbox-img").src = item.img;
+          document.getElementById("lightbox-prompt").textContent = item.prompt;
+          const modal = document.getElementById("lightbox-modal");
+          modal.classList.remove("hidden");
+          modal.classList.add("flex");
+        });
+      });
+
+      // Attach delete custom project events
+      document.querySelectorAll(".delete-portfolio-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const delId = btn.dataset.deleteId;
+          customPortfolioItems = customPortfolioItems.filter(p => p.id !== delId);
+          saveStoredJson(STORAGE_KEYS.PORTFOLIO, customPortfolioItems);
+          renderPortfolio(currentFilter);
+          showToast("تم حذف المشروع المخصص من المعرض.");
+        });
+      });
+    }
+
+    // Update Custom Prompt Generator
+    function updateGeneratedPrompt() {
+      const preset = document.getElementById("prompt-preset-select").value;
+      const customText = document.getElementById("prompt-custom-text").value.trim() || "BI Design";
+      const box = document.getElementById("generated-prompt-box");
+
+      const presets = {
+        "royal-post": `An ultra-luxurious, clean social media poster (1:1). In the center, a majestic futuristic AI android robot in a thoughtful pose with one metallic hand resting on its chin, wearing an ornate golden royal crown set with glowing blue sapphires and a royal navy blue cape with gold trim. Glowing golden circular halo ring behind it against a deep royal navy background. Bold 3D metallic gold typography at the bottom reading "${customText}", high-end 8k studio render.`,
+        "fb-cover": `A wide panoramic Facebook cover banner (16:9) in deep royal navy blue, metallic gold, and brushed silver. On the right side, a regal futuristic AI robot wearing a golden crown with glowing cyan eyes working on holographic creative screens. On the left side, clean luxury 3D metallic gold typography reading "${customText}" with glowing golden geometric lines, uncluttered layout, 8k commercial render.`,
+        "logo-reveal": `A luxury 3D metallic gold and polished silver emblem reveal on a dark royal navy blue pedestal with dramatic volumetric golden rim lighting, royal crown motif above bold 3D typography reading "${customText}", ultra-clean minimalist branding presentation, 8k octane render.`,
+        "product-ad": `A high-end commercial product advertisement in royal navy blue and liquid metallic gold, floating glowing golden particles and sleek light waves surrounding the centerpiece, luxury typography reading "${customText}", studio lighting, photorealistic 8k render.`
+      };
+
+      box.value = presets[preset] || presets["royal-post"];
+    }
+
+    // Initialize Page Events
+    window.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("hero-main-img").src = IMG_ASSETS.royalFinal;
+      document.getElementById("fb-sim-img").src = IMG_ASSETS.royalFinal;
+      document.getElementById("lightbox-img").src = IMG_ASSETS.royalFinal;
+      renderPortfolio("all");
+      updateGeneratedPrompt();
+
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+      document.querySelectorAll(".mobile-nav-link").forEach(link => {
+        link.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+      });
+
+      // Hero version switcher
+      const heroSwitchBtns = document.querySelectorAll(".hero-switch-btn");
+      heroSwitchBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const idx = parseInt(btn.dataset.heroIdx, 10);
+          const version = HERO_VERSIONS[idx];
+          if (!version) return;
+          document.getElementById("hero-main-img").src = version.img;
+          document.getElementById("fb-sim-img").src = version.img;
+          document.getElementById("hero-badge-label").textContent = version.title;
+
+          heroSwitchBtns.forEach(b => {
+            b.className = "hero-switch-btn rounded-xl border border-slate-700 bg-slate-900/80 px-2 py-2 text-xs font-semibold text-slate-300 transition hover:border-amber-400/50";
+          });
+          btn.className = "hero-switch-btn rounded-xl border border-amber-400 bg-amber-500/20 px-2 py-2 text-xs font-bold text-amber-200 transition";
+          showToast(`تم التبديل إلى: ${version.title}`);
+        });
+      });
+
+      // Portfolio filter buttons
+      const filterBtns = document.querySelectorAll(".portfolio-filter-btn");
+      filterBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const filter = btn.dataset.filter;
+          renderPortfolio(filter);
+          filterBtns.forEach(b => {
+            b.className = "portfolio-filter-btn rounded-xl border border-slate-700 bg-slate-900 px-3.5 py-1.5 text-xs font-semibold text-slate-300 hover:border-amber-400/50";
+          });
+          btn.className = "portfolio-filter-btn rounded-xl border border-amber-400 bg-amber-500/20 px-3.5 py-1.5 text-xs font-bold text-amber-200";
+        });
+      });
+
+      // Lightbox close & copy
+      document.getElementById("close-lightbox-btn").addEventListener("click", () => {
+        const modal = document.getElementById("lightbox-modal");
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      });
+      document.getElementById("copy-lightbox-prompt-btn").addEventListener("click", () => {
+        const promptText = document.getElementById("lightbox-prompt").textContent;
+        copyTextToClipboard(promptText, "تم نسخ البرومبت الخاص بالتصميم!");
+      });
+
+      // Select service buttons -> scroll to form & prefill
+      document.querySelectorAll(".select-service-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const service = btn.dataset.service;
+          const selectEl = document.getElementById("service-type");
+          selectEl.value = service;
+          document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+          showToast(`تم اختيار الخدمة: ${service}`);
+        });
+      });
+
+      // Copy Bio & Pinned Post
+      document.getElementById("copy-bio-btn").addEventListener("click", () => {
+        copyTextToClipboard(BIO_TEXT, "تم نسخ السيرة الذاتية المختصرة (Bio)!");
+      });
+      document.getElementById("copy-pinned-btn").addEventListener("click", () => {
+        copyTextToClipboard(PINNED_POST_TEXT, "تم نسخ نص المنشور المثبت بالكامل!");
+      });
+
+      // Prompt Generator events
+      document.getElementById("prompt-preset-select").addEventListener("change", updateGeneratedPrompt);
+      document.getElementById("prompt-custom-text").addEventListener("input", updateGeneratedPrompt);
+      document.getElementById("copy-generated-prompt-btn").addEventListener("click", () => {
+        const val = document.getElementById("generated-prompt-box").value;
+        copyTextToClipboard(val, "تم نسخ كود التوليد (Prompt) بنجاح!");
+      });
+
+      // GitHub Export buttons
+      document.getElementById("copy-readme-btn").addEventListener("click", () => {
+        copyTextToClipboard(README_CONTENT, "تم نسخ محتوى ملف README.md الجاهز لـ GitHub!");
+      });
+      document.getElementById("download-html-btn").addEventListener("click", () => {
+        const htmlContent = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+        const blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "index.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast("تم بدء تحميل ملف الموقع index.html لرفعه على GitHub!");
+      });
+
+      // Dynamic Portfolio Add Project Logic
+      const addProjectPanel = document.getElementById("add-project-panel");
+      document.getElementById("toggle-add-project-btn").addEventListener("click", () => {
+        addProjectPanel.classList.toggle("hidden");
+      });
+      document.getElementById("close-add-project-btn").addEventListener("click", () => {
+        addProjectPanel.classList.add("hidden");
+      });
+
+      let uploadedProjectDataUrl = null;
+      document.getElementById("new-project-file").addEventListener("change", (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) {
+          uploadedProjectDataUrl = null;
+          return;
+        }
+        const reader = new FileReader();
+        reader.onload = () => {
+          uploadedProjectDataUrl = reader.result;
+          showToast("تم تجهيز صورة المشروع بنجاح!");
+        };
+        reader.readAsDataURL(file);
+      });
+
+      document.getElementById("add-project-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const title = document.getElementById("new-project-title").value.trim();
+        const category = document.getElementById("new-project-category").value;
+        const templateKey = document.getElementById("new-project-template-img").value;
+        const prompt = document.getElementById("new-project-prompt").value.trim();
+        if (!title || !prompt) return;
+
+        const categoryLabels = {
+          "branding": "شعارات وهوية بصرية",
+          "ads": "إعلانات منتجات AI",
+          "royal-ai": "شخصيات وهوية AI"
+        };
+
+        const newItem = {
+          id: "custom-" + Date.now(),
+          title: title,
+          category: category,
+          categoryLabel: categoryLabels[category] || "تصميم AI",
+          img: uploadedProjectDataUrl || IMG_ASSETS[templateKey] || IMG_ASSETS.royalFinal,
+          prompt: prompt,
+          isCustom: true
+        };
+
+        customPortfolioItems.unshift(newItem);
+        saveStoredJson(STORAGE_KEYS.PORTFOLIO, customPortfolioItems);
+        renderPortfolio("all");
+        document.getElementById("add-project-form").reset();
+        uploadedProjectDataUrl = null;
+        addProjectPanel.classList.add("hidden");
+        showToast(`تمت إضافة "${title}" إلى معرض الأعمال بنجاح!`);
+      });
+
+      document.getElementById("reset-custom-projects-btn").addEventListener("click", () => {
+        customPortfolioItems = [];
+        saveStoredJson(STORAGE_KEYS.PORTFOLIO, customPortfolioItems);
+        renderPortfolio("all");
+        showToast("تمت استعادة المعرض الافتراضي.");
+      });
+
+      // Render Orders Log
+      function renderOrdersLog() {
+        const countBadge = document.getElementById("orders-count-badge");
+        const listEl = document.getElementById("orders-log-list");
+        countBadge.textContent = String(savedOrders.length);
+
+        if (savedOrders.length === 0) {
+          listEl.innerHTML = `<div class="rounded-xl border border-slate-800 bg-slate-900/50 p-3 text-center text-slate-400">لا توجد طلبات محفوظة حالياً. أرسل طلباً من النموذج أعلاه ليظهر هنا.</div>`;
+          return;
+        }
+
+        listEl.innerHTML = savedOrders.map(ord => `
+          <div class="flex flex-col justify-between gap-2 rounded-xl border border-slate-800 bg-slate-900/80 p-3 sm:flex-row sm:items-center">
+            <div>
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="font-en rounded bg-amber-500/20 px-2 py-0.5 text-[11px] font-bold text-amber-300">${escapeHtml(ord.id)}</span>
+                <span class="font-bold text-white">${escapeHtml(ord.name)}</span>
+                <span class="text-slate-400">• ${escapeHtml(ord.service)}</span>
+              </div>
+              <p class="mt-1 text-[11px] text-slate-300">${escapeHtml(ord.tier)} | ${escapeHtml(ord.speed)} | هاتف: <span dir="ltr" class="font-en">${escapeHtml(ord.phone || "غير محدد")}</span></p>
+              <p class="mt-0.5 text-[11px] text-slate-400">${escapeHtml(ord.details)}</p>
+            </div>
+            <div class="flex items-center gap-2 self-end sm:self-center">
+              <button type="button" data-toggle-order="${escapeHtml(ord.id)}" class="toggle-order-status-btn rounded-lg border border-emerald-500/40 bg-emerald-950/40 px-2.5 py-1 text-[11px] font-bold text-emerald-300 hover:bg-emerald-800/50">
+                ${escapeHtml(ord.status)} ↻
+              </button>
+              <button type="button" data-delete-order="${escapeHtml(ord.id)}" class="delete-order-btn rounded-lg border border-slate-700 bg-slate-800 px-2 py-1 text-[11px] text-slate-300 hover:border-rose-500 hover:text-rose-300">
+                ✕
+              </button>
+            </div>
+          </div>
+        `).join("");
+
+        document.querySelectorAll(".toggle-order-status-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const ord = savedOrders.find(o => o.id === btn.dataset.toggleOrder);
+            if (!ord) return;
+            const states = ["جديد", "قيد التنفيذ", "مكتمل ✅"];
+            const nextIdx = (states.indexOf(ord.status) + 1) % states.length;
+            ord.status = states[nextIdx];
+            saveStoredJson(STORAGE_KEYS.ORDERS, savedOrders);
+            renderOrdersLog();
+            showToast(`تم تحديث حالة الطلب ${ord.id} إلى: ${ord.status}`);
+          });
+        });
+
+        document.querySelectorAll(".delete-order-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            savedOrders = savedOrders.filter(o => o.id !== btn.dataset.deleteOrder);
+            saveStoredJson(STORAGE_KEYS.ORDERS, savedOrders);
+            renderOrdersLog();
+            showToast("تم حذف الطلب من السجل.");
+          });
+        });
+      }
+
+      renderOrdersLog();
+
+      // Project Order Form
+      function buildOrderData() {
+        const orderId = "BID-" + Math.floor(1000 + Math.random() * 9000);
+        const name = document.getElementById("client-name").value.trim() || "عميل جديد";
+        const phone = document.getElementById("client-phone").value.trim() || "غير محدد";
+        const service = document.getElementById("service-type").value;
+        const tier = document.getElementById("package-tier").value;
+        const speed = document.getElementById("delivery-speed").value;
+        const details = document.getElementById("project-details").value.trim() || "أرغب في الاستفسار عن تفاصيل الخدمة.";
+        const today = new Date().toISOString().slice(0, 10);
+        const msg = `مرحباً استوديو BI Design 👑
+رقم الطلب: ${orderId}
+
+الاسم: ${name}
+رقم التواصل: ${phone}
+الخدمة المطلوبة: ${service}
+الباقة: ${tier}
+موعد التسليم: ${speed}
+تفاصيل المشروع: ${details}`;
+        return { id: orderId, name, phone, service, tier, speed, details, status: "جديد", createdAt: today, msg };
+      }
+
+      document.getElementById("project-order-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const orderObj = buildOrderData();
+        savedOrders.unshift({
+          id: orderObj.id,
+          name: orderObj.name,
+          phone: orderObj.phone,
+          service: orderObj.service,
+          tier: orderObj.tier,
+          speed: orderObj.speed,
+          details: orderObj.details,
+          status: orderObj.status,
+          createdAt: orderObj.createdAt
+        });
+        saveStoredJson(STORAGE_KEYS.ORDERS, savedOrders);
+        renderOrdersLog();
+
+        const waUrl = `https://wa.me/201032136751?text=${encodeURIComponent(orderObj.msg)}`;
+        document.getElementById("order-preview-text").textContent = orderObj.msg;
+        document.getElementById("whatsapp-direct-link").href = waUrl;
+        document.getElementById("order-preview-box").classList.remove("hidden");
+        showToast(`تم حفظ الطلب (${orderObj.id}) وتجهيز رسالة واتساب!`);
+      });
+
+      document.getElementById("copy-order-btn").addEventListener("click", () => {
+        const orderObj = buildOrderData();
+        copyTextToClipboard(orderObj.msg, "تم نسخ تفاصيل الطلب لإرسالها عبر واتساب!");
+      });
+
+      document.getElementById("export-orders-csv-btn").addEventListener("click", () => {
+        if (savedOrders.length === 0) {
+          showToast("لا توجد طلبات لتصديرها حالياً.");
+          return;
+        }
+        const headers = ["Order ID", "Client Name", "Phone", "Service", "Package", "Delivery Speed", "Status", "Date", "Details"];
+        const rows = savedOrders.map(o => [
+          o.id, o.name, o.phone, o.service, o.tier, o.speed, o.status, o.createdAt, o.details
+        ].map(v => `"${String(v || "").replace(/"/g, '""')}"`).join(","));
+        const csvContent = "\uFEFF" + [headers.join(","), ...rows].join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "bi_design_orders.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast("تم تحميل ملف سجل الطلبات (bi_design_orders.csv)!");
+      });
+
+      document.getElementById("clear-orders-btn").addEventListener("click", () => {
+        savedOrders = [];
+        saveStoredJson(STORAGE_KEYS.ORDERS, savedOrders);
+        renderOrdersLog();
+        showToast("تم مسح سجل الطلبات.");
+      });
+    });
+  </script>
+</body>
+</html>
